@@ -80,7 +80,9 @@ section.hero-section {
 .banner-img {
     position: relative;
 }
-
+section#pricing .padding {
+    padding-top: 0;
+}
 /* .banner-img::after {
     content: "";
     position: absolute;
