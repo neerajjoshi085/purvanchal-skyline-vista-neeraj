@@ -256,9 +256,11 @@ section.hero-section {
     font-size: 13px;
     line-height: 30px;
     letter-spacing: .75px;
-        text-align: justify;
+        /* text-align: justify; */
 }
-
+.overview-sec .same-heading p {
+    text-align: justify;
+}
 .bg-green-overview {
     background-color: var(--primary-color);
     padding: 85px 0px;
@@ -785,15 +787,16 @@ footer{
     border-radius: 30px;
 }
 .disclaimer p{
-    background-color: var(--gold-color);
+    /* background-color: var(--gold-color); */
     padding: 10px;
     border-radius: 50px;
     color: #fff;
     font-weight: 500;
+    font-size: 12px;
 }
 
 .disclaimer a{
-    text-decoration: none;
+   text-decoration: underline;
    color: #fff;
 }
 .discalimerdiv span.reamoredbtn {
