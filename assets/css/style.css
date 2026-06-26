@@ -83,6 +83,9 @@ section.hero-section {
 section#pricing .padding {
     padding-top: 0;
 }
+.floor-plan-card img {
+    filter: blur(5px);
+}
 /* .banner-img::after {
     content: "";
     position: absolute;
