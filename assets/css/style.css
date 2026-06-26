@@ -776,10 +776,10 @@ footer{
     box-shadow: none;
 }
 .modal-header {
-    border-bottom: 0 !important;
+     border-bottom: 0 !important;
     position: absolute;
     right: 10px;
-    top: 0;
+    top: 10px;
     z-index: 9;
 }
 .modal-body form input.form-control {
