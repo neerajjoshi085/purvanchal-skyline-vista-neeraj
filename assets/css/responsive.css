@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:767px) {
+    .abs-top-conetnt h1 {
+        font-size: 28px;
+        letter-spacing: 2.5px;
+        line-height: 50px;
+        word-spacing: 4px;
+    }
+    .abs-top-conetnt p{
+        line-height: 1.8;
+        margin-bottom: 0 !important;
+    }
+
+    .banner-img img {
+        object-fit: cover;
+        height: 89vh;
+    }
+
+    .typology-card {
+        border-bottom: 1px solid color(a98-rgb 1 1 1 / 0.5);
+        border-right: none;
+        padding: 13px 12px;
+    }
+
+    .typologt-sec {
+        background-color: var(--primary-color);
+        padding: 30px 0px;
+        padding-top: 0;
+    }
+
+    .abs-retail-slider {
+        width: 95%;
+    }
+    div#highlights {
+    padding-bottom: 350px;
+}
+    /* .price-sec {
+        margin-top: 90% !important;
+    } */
+
+    .price-card h4 {
+        font-size: 30px;
+    }
+
+    .price-card h3 {
+        font-size: 28px;
+    }
+    .price-card{
+        padding: 40px 40px !important;
+    }
+.typologt-sec .col-xl-3.col-6 {
+    width: 100%;
+}
+
+.typologt-sec .col-xl-3.col-6:last-child .typology-card {
+    border-bottom: 0;
+}
+    .menu-btn a{
+        display: none;
+    }
+    .bg-green-overview::after{
+        position: unset;
+    }
+    .bg-green-overview{
+        margin-top: 25px !important;
+    }
+
+    .same-heading h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    .same-heading p{
+        text-align: center !important;
+    }
+    .highlight-sec{
+        padding-top: 0;
+    }
+    .tab-btn {
+    padding: 10px 0px;
+    font-size: 11px;
+}
+.tab-btn.active {
+    padding: 10px 30px;
+    width: 100%;
+}
+.floor-tabs {
+              padding: 10px;
+        border-radius: 10px;
+        width: 100%;
+    }
+.about-developer-sec {
+    background: linear-gradient(to bottom, #ce9e95 84%, #ffffff 30%);
+}
+.about-developer-card::before, .about-developer-card::after{
+    position: unset;
+}
+.about-developer-sec .about-developer-sec-image img  {
+height: 300px;
+object-fit: cover;
+}
+.overview-card > div > img {
+    filter: invert(1);
+    width: 30px;
+}
+.disclaimer p{
+    font-size: 8px;
+     border-radius: 10px;
+}
+.rera-details p{
+    font-size: 11px;
+}
+.bg-green-overview{
+    padding: 35px 0px;
+}
+.abs-top-conetnt{
+    bottom: 10px;
+}
+.typology-card h3{
+    font-size: 20px;
+}
+.same-heading::after{
+    width: 350px;
+}
+
+.bg-green-overview, .highlight-sec, .floor-plan, .about-developer-sec,footer{
+    border-radius: 0;
+}
+.overview-card h6{
+    font-size: 13px;
+}
+.overview-card p{
+    font-size: 10px;
+}
+.overview-card img{
+    width: 30px;
+}
+.overview-card{
+    gap: 10px;
+}
+.padding {
+    padding: 30px 0px;
+}
+.about-developer-card h4{
+    font-size: 25px;
+}
+.overview-sec .padding{
+    padding-bottom: 0px;
+}
+.mobile-form {
+    background: #f7c07a;
+    border: 0!important;
+}
+
+.mobile-form h5.text-center {
+    font-size: 35px;
+    font-family: "Cormorant SC", serif;
+}
+.disclaimer {
+    padding: 0px 5px;
+    margin-top: 30px;
+}
+.modal-form .same-heading2 h2 {
+    font-size: 24px;
+}
+.modal .modal-content {
+    border-radius: 10px;
+    padding: 10px;
+}
+/* .overview-image-abs{
+    position: relative;
+    width: 100%;
+    top: 35px;
+} */
+header.header a.navbar-brand img {
+    width: 85px;
+}
+ div#highlights .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6.mt-3 {
+    width: 100%;
+}
+ .overview-image {
+    width: 100%;
+     height: 350px;
+}
+ .overview-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+.typology-card p{
+    font-size: 13px;
+}
+.gallery-sec::before{
+    position: unset;
+}
+
+.floor-plan-content{
+    text-align: center;
+}
+.form-input {
+    background: transparent;
+    width: 100%;
+    margin-top: 13px;
+    border: none;
+    border-bottom: 1px solid #052013;
+    padding: 6px 6px;
+}
+}
+
+@media (max-width:1366px) {
+    .bg-green-overview::after {
+        width: 514px !important;
+    }
+}
+
+
+
+@media (max-width:1440px) {
+    .bg-green-overview::after {
+        width: 640px;
+    }
+
+    /* .price-sec {
+        margin-top: 22%;
+    } */
+
+    .center-gallery-img img {
+        height: 280px;
+    }
+    .left-gallery-img .left-long , .right-gallery-img .right-long{
+        height: 440px;
+    }
+
+    .left-gallery-img img, .right-gallery-img img{
+        height: 180px;
+    }
+}
